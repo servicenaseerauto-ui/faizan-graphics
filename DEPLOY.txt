@@ -1,0 +1,13 @@
+Faizan Graphics - Deploy to Web
+
+Repo: https://github.com/servicenaseerauto-ui/faizan-graphics
+Live URL after Pages: https://servicenaseerauto-ui.github.io/faizan-graphics/
+
+STEPS:
+1. Download Faizan-Graphics-GitHub-Pages.zip
+2. Extract the zip
+3. On GitHub repo page click Add file → Upload files
+4. Upload: index.html, style.css, script.js, .nojekyll, and the images folder
+5. Commit changes
+6. Settings → Pages → Deploy from branch → main → / (root) → Save
+7. Wait 1-2 minutes and open the live URL
