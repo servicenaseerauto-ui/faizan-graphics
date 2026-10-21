@@ -1,16 +1,18 @@
-# Faizan Graphics Website
+# Faizan Graphics
 
-Portfolio for **Faizan Graphics** — Baldia Town, Karachi.
+Professional graphic design portfolio website.
 
-## Live website
-**https://servicenaseerauto-ui.github.io/faizan-graphics/**
+**Live site:** https://servicenaseerauto-ui.github.io/faizan-graphics/
+
+## Features
+- Promo 3D intro page
+- AR 3D poster viewer
+- Admin panel (password: faizan123)
+- Portfolio gallery
+- WhatsApp contact integration
 
 ## Enable GitHub Pages
-1. Open **Settings** → **Pages**
+1. Repo **Settings** → **Pages**
 2. Source: **Deploy from a branch**
-3. Branch: **main** · Folder: **/ (root)**
-4. Save — live in 1–2 minutes
-
-## Contact
-- WhatsApp: 03482815462
-- Address: KS Mujahid Khan Road, Jonagarh Mohella, Rasheedabad Arab Mohalla, Karachi 75760
+3. Branch: **main** / **root**
+4. Save — site goes live in 1–2 minutes
