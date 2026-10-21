@@ -1,1 +1,50 @@
-PLACEHOLDER3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faizan Graphics | Baldia Town Karachi</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Poppins,sans-serif;background:#050806;color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem;overflow-x:hidden}
+.bg{position:fixed;inset:0;background:radial-gradient(ellipse at 50% 30%,#0d2818 0%,#050806 60%);z-index:0}
+.ring{position:absolute;top:50%;left:50%;border-radius:50%;border:1px solid rgba(0,230,118,.15);transform:translate(-50%,-50%);animation:pulse 5s ease-in-out infinite}
+.r1{width:200px;height:200px}.r2{width:320px;height:320px;animation-delay:.5s}.r3{width:450px;height:450px;animation-delay:1s}
+@keyframes pulse{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.6}50%{transform:translate(-50%,-50%) scale(1.08);opacity:1}}
+.wrap{position:relative;z-index:2;max-width:560px}
+.logo{width:100px;height:100px;margin:0 auto 1.5rem;border-radius:50%;background:linear-gradient(135deg,#00c853,#00e676);display:flex;align-items:center;justify-content:center;font-family:Orbitron,sans-serif;font-weight:900;font-size:2rem;color:#0a0f0c;box-shadow:0 0 40px rgba(0,230,118,.45);animation:spin 12s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+h1{font-family:Orbitron,sans-serif;font-size:clamp(2rem,8vw,3.2rem);letter-spacing:.06em;margin-bottom:.4rem}
+h1 span{background:linear-gradient(90deg,#00c853,#69f0ae);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.tag{color:#00e676;margin-bottom:1rem;letter-spacing:.1em}
+.desc{color:#aaa;margin-bottom:2rem;line-height:1.6}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center}
+a.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.5rem;border-radius:999px;font-weight:700;text-decoration:none;transition:.2s}
+.btn-wa{background:#25d366;color:#fff}
+.btn-wa:hover{filter:brightness(1.1);transform:scale(1.04)}
+.btn-out{border:2px solid #00e676;color:#00e676}
+.btn-out:hover{background:rgba(0,230,118,.15)}
+.info{margin-top:2.5rem;font-size:.8rem;color:#666;line-height:1.7}
+.info strong{color:#00e676}
+</style>
+</head>
+<body>
+<div class="bg"><span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span></div>
+<div class="wrap">
+  <div class="logo">FG</div>
+  <h1>FAIZAN <span>GRAPHICS</span></h1>
+  <p class="tag">Ap Ki Soch · Hamara Design</p>
+  <p class="desc">Professional graphic design · Baldia Town, Karachi<br>8 Years Experience · Logo · Branding · Social Media · AR</p>
+  <div class="btns">
+    <a class="btn btn-wa" href="https://wa.me/923482815462?text=Hi%20Faizan%20Graphics!" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    <a class="btn btn-out" href="https://www.facebook.com/faizan.grp/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+    <a class="btn btn-out" href="tel:+923482815462"><i class="fas fa-phone"></i> Call</a>
+  </div>
+  <p class="info">Full portfolio with gallery, AR 3D view & admin panel is in your download ZIP.<br>
+  Contact: <strong>0348-2815462</strong> · WhatsApp: <strong>0347-2077120</strong><br>
+  WX5C+RX4, KS Mujahid Khan Road, Rasheedabad, Karachi</p>
+</div>
+</body>
+</html>
